@@ -81,10 +81,10 @@
 
         EDIT {
             bindings = <
-&to 5         &trans              &kp UP_ARROW    &trans               &kp PAGE_UP                                    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-&to 6         &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp PAGE_DOWN  &trans         &kp PRINTSCREEN  &kp EXCLAMATION       &kp AT_SIGN            &kp HASH          &kp DOLLAR         &kp PERCENT
-&kp LEFT_GUI  &kp LC(LEFT_ARROW)  &trans          &kp LC(RIGHT_ARROW)  &kp INSERT     &kp EQUAL      &kp BACKSLASH    &kp CARET             &kp AMPERSAND          &kp ASTERISK      &kp TILDE          &kp INT_YEN
-&trans        &trans              &trans          &trans               &trans         &trans         &trans           &trans                                                                            &trans
+&to 5             &trans              &kp UP_ARROW    &trans               &kp PAGE_UP                                    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&kp LC(LGUI)      &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp PAGE_DOWN  &trans         &kp PRINTSCREEN  &kp EXCLAMATION       &kp AT_SIGN            &kp HASH          &kp DOLLAR         &kp PERCENT
+&kp LC(LS(LGUI))  &kp LC(LEFT_ARROW)  &trans          &kp LC(RIGHT_ARROW)  &kp INSERT     &kp EQUAL      &kp BACKSLASH    &kp CARET             &kp AMPERSAND          &kp ASTERISK      &kp TILDE          &kp INT_YEN
+&to 6             &trans              &trans          &trans               &trans         &trans         &trans           &trans                                                                            &trans
             >;
         };
 
