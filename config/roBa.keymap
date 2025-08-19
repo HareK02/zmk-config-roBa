@@ -101,10 +101,10 @@
 
         EDIT {
             bindings = <
-&mo 6             &trans              &kp UP_ARROW    &trans               &kp PAGE_UP                                     &kp CARET     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp LC(LGUI)      &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp PAGE_DOWN  &trans         &kp PRINTSCREEN   &kp SLASH     &kp AT_SIGN           &kp HASH               &kp DOLLAR        &kp PERCENT
-&kp LC(LS(LGUI))  &kp LC(LEFT_ARROW)  &trans          &kp LC(RIGHT_ARROW)  &kp INSERT     &kp EQUAL      &kp SINGLE_QUOTE  &kp QUESTION  &kp AMPERSAND         &kp ASTERISK           &kp GRAVE         &kp INT_YEN
-&mo 7             &trans              &trans          &trans               &trans         &trans         &trans            &mo 4                                                                        &trans
+&mo 6               &trans            &kp UP_ARROW    &trans             &kp PAGE_UP                                     &kp CARET     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp LEFT_GUI        &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp PAGE_DOWN  &trans         &kp PRINTSCREEN   &kp SLASH     &kp AT_SIGN           &kp HASH               &kp DOLLAR        &kp PERCENT
+&kp LG(LEFT_SHIFT)  &kp LC(LG(LEFT))  &trans          &kp LC(LG(RIGHT))  &kp INSERT     &kp EQUAL      &kp SINGLE_QUOTE  &kp QUESTION  &kp AMPERSAND         &kp ASTERISK           &kp GRAVE         &kp INT_YEN
+&mo 7               &trans            &trans          &trans             &trans         &trans         &trans            &mo 4                                                                        &trans
             >;
         };
 
