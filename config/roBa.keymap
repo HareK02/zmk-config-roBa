@@ -10,7 +10,6 @@
     quick-tap-ms = <0>;
 };
 
-
 / {
     zip_temp_layer: zip_temp_layer {
         compatible = "zmk,input-processor-temp-layer";
@@ -124,10 +123,10 @@
 
         EDIT_BACK {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans           &trans     &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp BACKSLASH    &trans     &trans  &trans          &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp EXCLAMATION  &kp COLON  &trans  &kp TILDE       &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                              &trans
+&trans  &trans              &kp LS(UP)          &trans               &trans                      &trans           &trans     &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE
+&trans  &kp LS(LEFT_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)  &trans  &trans      &trans  &kp BACKSLASH    &trans     &trans  &trans          &trans
+&trans  &trans              &trans              &trans               &trans  &trans      &trans  &kp EXCLAMATION  &kp COLON  &trans  &kp TILDE       &trans
+&trans  &trans              &trans              &trans               &trans  &trans      &trans  &trans                                              &trans
             >;
         };
 
